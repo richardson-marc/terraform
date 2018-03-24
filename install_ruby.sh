@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-apt-get update && \
+sudo apt-get update && \
 sudo apt-get -y install ruby-mongo ruby-sinatra && \
 echo "Mongo Address: ${mongo_address}"
 
